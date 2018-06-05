@@ -21,7 +21,7 @@ function init() {
     keysPressed.push(newKey);
     lastTenKeys = keysPressed.slice(keysPressed.length - 10);
     if (lastTenKeys.join("") === codes.join("")) {
-      //console.log("KONAMI CODE!!!!!!!!!!!!!!!");
+      console.log("KONAMI CODE!!!!!!!!!!!!!!!");
       alert("Congratulations! You've entered the Konami Code!");
     }
   })
